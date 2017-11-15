@@ -1,5 +1,5 @@
 language: python
-pythn:
+python:
  -"2.7"
  -"3.5"
 #command to install dependencies
