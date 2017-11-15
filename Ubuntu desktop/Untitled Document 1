@@ -1,0 +1,14 @@
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat > file3
+wow
+^C
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat >> file3
+This works?
+^C
+anshul@Compaq-Presario-C700-Notebook-PC:~$ 
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat file3
+wow
+This works?
+anshul@Compaq-Presario-C700-Notebook-PC:~$ 
+
+http://www.codeskulptor.org/#user43_Q8VmjnntIF_1.py
+http://www.codeskulptor.org/#user43_o1ZypOMJA5_0.py

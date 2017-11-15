@@ -1,0 +1,65 @@
+45  git --version
+   46  sudo apt-get install git
+   47  git --version
+   48  mkdir myproject
+   49  cd myproject
+   50  git init
+   51  ls -al
+   52  git status
+   53  gedit README.txt
+   54  ls -al
+   55  git status
+   56  git add README.txt 
+   57  ls
+   58  git status
+   59  git commit -m "Add README"
+   60  git config user.name "Anshul Sood"
+   61  git config --global user.username "github0939"
+   62  git commit -m "Add README"
+   63  git config --global user.email "anshulsood@icloud.com"
+   64  git commit -m "Add README"
+   65  git log
+   66  git status
+   67  git diff
+   68  gedit
+   69  ls
+   70  git commit
+   71  git log
+   72  git remote add origin https://github.com/github0939/CTE-session
+   73  get remote -v
+   74  git remote -v
+   75  git status
+   76  git push origin master
+   77  pwd
+   78  cd ..
+   79  pwd
+   80  git clone https://github.com/github0939/gitLesson.git
+   81  ls -al
+   82  cd gitLesson
+   83  ls
+   84  python3 abc.py
+   85  gedit abc.py
+   86  git status
+   87  git diff
+   88  git add abc.py
+   89  git status
+   90  git commit
+   91  git commit -m "Add abc.py"
+   92  git push origin master
+   93  get diff
+   94  git diff
+   95  git diff HEAD
+   96  git diff HEAD~1
+   97  git reset  --hard HEAD~1
+   98  git diff
+   99  touch anshulsood.txt
+  100  ls
+  101  git status
+  102  git add anshulsood.txt
+  103  git status
+  104  git commit -m "Add anshulsood.txt"
+  105  git remote -v
+  106  git push origin master
+  109  git push origin master -f
+  110  git commit
+

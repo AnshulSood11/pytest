@@ -1,0 +1,12 @@
+#include<iostream.h>
+int main()
+{int a,b,c;
+  int sum(int,int);
+  c=sum(a,b);
+return 0;
+}
+int sun(sum x, sum y)
+{int z;
+z=x+y;
+return z;
+}

@@ -1,0 +1,71 @@
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat > file3
+wow
+^C
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat >> file3
+This works?
+^C
+anshul@Compaq-Presario-C700-Notebook-PC:~$ 
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat file3
+wow
+This works?
+anshul@Compaq-Presario-C700-Notebook-PC:~$ gedit file2
+anshul@Compaq-Presario-C700-Notebook-PC:~$ gedit file3
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat searchthis
+cat: searchthis: No such file or directory
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cat  searchthis
+cat: searchthis: No such file or directory
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cs ~Documents/
+The program 'cs' is currently not installed. You can install it by typing:
+sudo apt install csound
+anshul@Compaq-Presario-C700-Notebook-PC:~$ cd ~Documents/
+bash: cd: ~Documents/: No such file or directory
+anshul@Compaq-Presario-C700-Notebook-PC:~$ grep
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+anshul@Compaq-Presario-C700-Notebook-PC:~$ man grep
+anshul@Compaq-Presario-C700-Notebook-PC:~$ python3
+Python 3.5.2 (default, Nov 17 2016, 17:05:23) 
+[GCC 5.4.0 20160609] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a=1
+>>> b=2
+>>> print(a+b)
+3
+>>> list1={1,2,3}
+>>> len{list1}
+  File "<stdin>", line 1
+    len{list1}
+       ^
+SyntaxError: invalid syntax
+>>> len(list1)
+3
+>>> 
+>>> squares={0,1,4,9,16,25}
+>>> print(squares)
+{0, 1, 4, 9, 16, 25}
+>>> print("length is:"+len(squares))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Can't convert 'int' object to str implicitly
+>>> print("The length is:")
+The length is:
+>>> len(squares)
+6
+>>> L1=[19,[2,32]]
+>>> print(L[2])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'L' is not defined
+>>> L1=[19, [2, 32], 34, 87]
+>>> print(L1)
+[19, [2, 32], 34, 87]
+>>> print(L1[0])
+19
+>>> print(L1[2])
+34
+>>> print(L1[L1])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: list indices must be integers or slices, not list
+>>> 
+
